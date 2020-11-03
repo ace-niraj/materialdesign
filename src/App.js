@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
+import Section from './components/Section'
 function App() {
   const [isOpen , setisOpen] = useState(false)
 
@@ -15,6 +16,7 @@ function App() {
      <Navbar toggle ={toggle}/>
      <Sidebar isOpen={isOpen} toggle={toggle}/>
      <Hero/>
+    <Section/>
     </>
   );
 }

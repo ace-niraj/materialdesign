@@ -35,12 +35,15 @@ const useStyles = makeStyles((theme)=>({
    },
    btn:{
       letterSpacing:'.3rem',
-      border:'1px solid transparent ' ,
+      color:'#fff',
+      background:'transparent',
+      border:'1px solid #fff',
+     
       transition:'all 0.3s ease-in-out',
 
       '&:hover':{
-         color:'#fff',
-         background:'transparent',
+         color:'#222',
+        
          border:'1px solid #fff',
          transition:'all 0.3s ease-in-out',
       }

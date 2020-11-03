@@ -4,11 +4,17 @@ import {makeStyles} from '@material-ui/core/styles'
 const useStyles = makeStyles((theme)=>({
    appbar : {
        backgroundColor:'transparent',
-       zIndex:'10',
-      
+       zIndex:'10',  
        marginTop:'-80px',
-      
+      transition:'all 0.8s ease-in-out'
    },
+   appbar1 : {
+    backgroundColor:'#fff',
+    color:'#222',
+    zIndex:'10',  
+    marginTop:'-80px',
+    transition:'all 0.8s ease-in-out'
+},
 
    toolbar:{
        justifyContent:'space-between',
@@ -23,10 +29,11 @@ const useStyles = makeStyles((theme)=>({
    },
 
    menuicon:{
-       color:'#fff',
+       color:'#222',
        fontSize:'2rem'
       
    },
+   
    list:{
        display:'flex',
       

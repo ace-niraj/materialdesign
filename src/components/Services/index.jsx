@@ -11,7 +11,7 @@ const Service = () => {
           <Grid container spacing={2} className={classes.firstgrid} direction='column' alignItems='center'>
             <Grid item xs={10}>
                 <Typography className={classes.h2} variant='h3'>
-                    OUR SERVICES
+                    MY SERVICES
                 </Typography>
             </Grid>
             </Grid>

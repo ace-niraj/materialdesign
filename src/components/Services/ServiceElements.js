@@ -3,6 +3,7 @@ import {makeStyles} from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme)=>({
     box:{
+        marginTop:'10vh',
         marginBottom:'20vh',
         overflow:'hidden'
     },

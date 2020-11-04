@@ -4,6 +4,8 @@ import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
 import Section from './components/Section'
 import Services from './components/Services'
+import Code from './components/Code'
+import Footer from './components/Footer'
 function App() {
   const [isOpen , setisOpen] = useState(false)
 
@@ -19,6 +21,8 @@ function App() {
      <Hero/>
     <Section/>
     <Services/>
+    <Code/>
+    <Footer/>
     </>
   );
 }

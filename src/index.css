@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  background-color: aliceblue;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: forestgreen;
+  border-radius: 2px;
+}
 
 body {
   font-family: 'Roboto', sans-serif;

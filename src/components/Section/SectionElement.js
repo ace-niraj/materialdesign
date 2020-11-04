@@ -1,47 +1,44 @@
 import {makeStyles} from '@material-ui/core/styles'
 const useStyles = makeStyles((theme)=>({
-   container:{
-      position:'relative',
+   box:{     
+      overflow:'hidden',     
+      marginTop:'20vh',
+      marginBottom:'20vh',
+    
+   },
+   maincontainer:{
       display:'flex',
       alignItems:'center',
-      justifyContent:'center',
-      textAlign:'center',
-      height:'120vh',
-      overflow:'hidden'
+      justifyContent:'center'
    },
-   
-   content:{
-      zIndex:'1',
-      color:'#222'
-   },
-   h2:{
-      letterSpacing:'.5rem',
-      [theme.breakpoints.down('sm')]: {
-         letterSpacing:'.2rem',
-        fontSize:'3rem'
-       },
-   },
-   p:{
-      letterSpacing:'.2rem'
+   h5:{
+      color:'green',
+      letterSpacing:'.6rem',
+     
+     
    },
    btn:{
-      letterSpacing:'.3rem',
-      color:'#222',
-      background:'transparent',
-      border:'1px solid #fff',
-     
-      transition:'all 0.3s ease-in-out',
+      fontSize:'15px',
+      letterSpacing:'.5rem',
+      border:'1px solid transparent',
 
       '&:hover':{
-         color:'#222',
-        
-         border:'1px solid #fff',
-         transition:'all 0.3s ease-in-out',
+         color:'green',
+         border:'1px solid green',
+         background:'#fff'
       }
+   },
+   img:{
+      maxWidth:'100%',
+     maxHeight:'100%',
 
-   }
+     
+   } 
+ 
+   
+   
   
-  
+
 }))
 
 

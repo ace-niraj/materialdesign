@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, IconButton, List, ListItem, ListItemText, Slide, Toolbar, Typography, useScrollTrigger } from '@material-ui/core'
+import { AppBar, Box, Button, IconButton, List, ListItem, ListItemText, Toolbar, Typography } from '@material-ui/core'
 import React, { useEffect, useState } from 'react'
 import useStyles from './NavbarElement'
 import MenuIcon from '@material-ui/icons/Menu';

@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
 import Section from './components/Section'
+import Services from './components/Services'
 function App() {
   const [isOpen , setisOpen] = useState(false)
 
@@ -17,6 +18,7 @@ function App() {
      <Sidebar isOpen={isOpen} toggle={toggle}/>
      <Hero/>
     <Section/>
+    <Services/>
     </>
   );
 }

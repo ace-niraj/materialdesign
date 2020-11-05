@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Section from './components/Section'
 import Services from './components/Services'
 import Code from './components/Code'
+import Carousels from './components/Carousel'
 import Footer from './components/Footer'
 function App() {
   const [isOpen , setisOpen] = useState(false)
@@ -22,6 +23,7 @@ function App() {
     <Section/>
     <Services/>
     <Code/>
+    <Carousels/>
     <Footer/>
     </>
   );

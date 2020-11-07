@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ type: 'spring', stiffness: '300' }}
+          transition={{ type: 'spring', stiffness: '300', delay: '1.5' }}
         >
           <Toolbar className={classes.toolbar}>
             <Typography className={classes.typography}>ACE</Typography>

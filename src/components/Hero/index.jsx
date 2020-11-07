@@ -18,7 +18,7 @@ const Hero = () => {
               <motion.div
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: '1' }}
+                transition={{ duration: '1', delay: '1.5' }}
               >
                 <Typography className={classes.h2} variant='h2'>
                   ENJOY THE SHOW
@@ -29,7 +29,7 @@ const Hero = () => {
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: '2' }}
+                transition={{ duration: '1', delay: '1.7' }}
               >
                 <Typography className={classes.p} variant='p'>
                   Lorem ipsum dolor sitssss ssss amet, consectetur adipisicing
@@ -41,7 +41,7 @@ const Hero = () => {
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: '2' }}
+                transition={{ duration: '1', delay: '2' }}
               >
                 <Button className={classes.btn} variant='contained'>
                   Get started

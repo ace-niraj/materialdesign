@@ -2,7 +2,7 @@ import { Box, Button, Grid, Typography } from '@material-ui/core';
 import React, { useEffect, useRef } from 'react';
 import useStyles from './SectionElement';
 import image from './../../videos/code.svg';
-import { gsap, Power3 } from 'gsap';
+import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 const Section = () => {
@@ -21,6 +21,7 @@ const Section = () => {
         opacity: 1,
         x: 0,
         duration: 1,
+        ease: 'power3.in',
 
         scrollTrigger: {
           trigger: box,

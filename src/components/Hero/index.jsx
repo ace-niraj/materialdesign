@@ -18,7 +18,7 @@ const Hero = () => {
               <motion.div
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: '.5', type: 'spring', stiffness: '400' }}
+                transition={{ duration: '1' }}
               >
                 <Typography className={classes.h2} variant='h2'>
                   ENJOY THE SHOW
@@ -27,9 +27,9 @@ const Hero = () => {
             </Grid>
             <Grid item>
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: '.7', type: 'spring', stiffness: '400' }}
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: '2' }}
               >
                 <Typography className={classes.p} variant='p'>
                   Lorem ipsum dolor sitssss ssss amet, consectetur adipisicing
@@ -39,9 +39,9 @@ const Hero = () => {
             </Grid>
             <Grid item>
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: '.9', type: 'spring', stiffness: '400' }}
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: '2' }}
               >
                 <Button className={classes.btn} variant='contained'>
                   Get started

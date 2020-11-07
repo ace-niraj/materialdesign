@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   box: {
     overflow: 'hidden',
-    marginTop: '20vh',
+    paddingTop: '15vh',
     marginBottom: '20vh',
   },
   maincontainer: {
